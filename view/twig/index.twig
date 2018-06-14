@@ -1,0 +1,39 @@
+{% include 'header.twig' %}
+<link href="../../web/style.css" rel="stylesheet">
+<div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">MetricsApp</h3>
+                    <ul class="nav masthead-nav">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/about.php">About</a></li>
+                        <li><a href="/contact.php">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <form method='POST' action='/info.php'>
+                    <h1 class="cover-heading">Please, input DOI</h1>
+                    <input type="text" name='doi'>
+                    <input type="submit" class="btn btn-lg btn-default" value='get metrics'>
+                </form>
+            </div>
+
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>by <a href="https://twitter.com/mdo">jura96_@mail.ru</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+{% include 'footer.twig' %}

@@ -1,0 +1,21 @@
+{
+  "name": "YMironov/Metrics",
+  "description": "Metrics aggregation",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Yuriy Mironov",
+      "email": "jura96_@mail.ru"
+    }
+  ],
+  "require": {
+    "symfony/http-foundation": "4.1.x-dev",
+    "twig/twig": "2.x-dev"
+  },
+  "autoload":{
+    "psr-4":{
+      "Core\\" : "src"
+    }
+  }
+}

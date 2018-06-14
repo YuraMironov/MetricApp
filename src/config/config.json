@@ -1,0 +1,86 @@
+{
+  "altmetric.com": {
+    "fields": {
+      "Facebook": "cited_by_fbwalls_count",
+      "Blog": "cited_by_feeds_count",
+      "Google+": "cited_by_gplus_count",
+      "News": "cited_by_msm_count",
+      "Posts": "cited_by_posts_count",
+      "Reddit": "cited_by_rdts_count",
+      "Twitter": "cited_by_tweeters_count",
+      "Video channels": "cited_by_videos_count",
+      "Q&A": "cited_by_qna_count",
+      "Sina Weibo": "cited_by_weibo_count",
+      "Wikipedia": "cited_by_wikipedia_count",
+      "Accounts mentioned": "cited_by_accounts_count",
+      "CiteULike": "readers/citeulike",
+      "Mendeley": "readers/mendeley",
+      "Connotea": "readers/connotea"
+    },
+    "urls": {
+      "detail": "details_url"
+    },
+    "title": "Altmetric.com"
+  },
+  "plu.mx": {
+    "fields": {
+      "Q&A": "statistics/Mentions/Stack Exchange",
+      "CiteULike": "statistics/Captures/CiteULike",
+      "Mendeley": "statistics/Captures/Mendeley",
+      "Delicious": "statistics/Captures/Delicious",
+      "EBSCO(Captures)": "statistics/Captures/EBSCO",
+      "EBSCO(Usage)": "statistics/Usage/EBSCO",
+      "Bitly": "statistics/Usage/Bitly",
+      "PLoS": "statistics/Usage/PLoS",
+      "PubMedCentral": "statistics/Usage/PubMedCentral",
+      "Blog": "statistics/Mentions/Blog",
+      "News": "statistics/Mentions/News",
+      "Reddit": "statistics/Mentions/Reddit",
+      "Wikipedia": "statistics/Mentions/Wikipedia",
+      "CrossRef": "statistics/Citations/CrossRef",
+      "PubMed": "statistics/Citations/PubMed",
+      "PubMedCentralEurope": "statistics/Citations/PubMedCentralEurope",
+      "Scopus": "statistics/Citations/Scopus",
+      "Facebook": "statistics/Social Media/Facebook",
+      "Google+": "statistics/Social Media/Google+",
+      "Twitter": "statistics/Social Media/Twitter"
+    },
+    "urls": {
+      "detail": "link"
+    },
+    "title": "PlumX"
+  },
+  "plos.org": {
+    "fields": {
+      "OpenEdition": "data/0/sources/OpenEdition",
+      "Copernicus": "data/0/sources/Copernicus",
+      "CrossRef": "data/0/sources/CrossRef",
+      "DataCite": "data/0/sources/DataCite",
+      "PubMed Central": "data/0/sources/PubMed Central",
+      "Journal Comments": "data/0/sources/Journal Comments",
+      "Nature": "data/0/sources/Nature",
+      "Reddit": "data/0/sources/Reddit",
+      "Research Blogging": "data/0/sources/Research Blogging",
+      "ScienceSeeker": "data/0/sources/ScienceSeeker",
+      "Figshare": "data/0/sources/Figshare",
+      "F1000Prime": "data/0/sources/F1000Prime",
+      "Wordpress.com": "data/0/sources/Wordpress.com",
+      "Wikipedia": "data/0/sources/Wikipedia",
+      "ORCID": "data/0/sources/ORCID",
+      "PubMedCentralEurope": "data/0/sources/Europe PMC Citations",
+      "Article Coverage Curated": "data/0/sources/Article Coverage Curated",
+      "Article Coverage": "data/0/sources/Article Coverage",
+      "CiteULike": "data/0/sources/CiteULike",
+      "Facebook": "data/0/sources/Facebook",
+      "Scopus": "data/0/sources/Scopus",
+      "Mendeley": "data/0/sources/Mendeley",
+      "Relative Metric": "data/0/sources/Relative Metric",
+      "Twitter": "data/0/sources/Twitter",
+      "PMC Usage Stats": "data/0/sources/PMC Usage Stats"
+    },
+    "urls": {
+      "detail": "data/url"
+    },
+    "title": "PLoS"
+  }
+}

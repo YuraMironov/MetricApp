@@ -1,0 +1,38 @@
+{% include 'header.twig' %}
+<div class="page-header">
+    <h1>Metrics for "{{ title }}" <small>DOI: {{ doi }}</small></h1>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Comparing table</div>
+
+    <table class="table">
+        <thead>
+            <th>#</th>
+            {% for name in names %}
+            <th><a target="_blank" href="{{ urls[loop.index0][0]['value'] }}">{{ name }}</a></th>
+            {% endfor %}
+            <th>Min</th>
+            <th>Max</th>
+            <th>Middle</th>
+        </thead>
+        <tbody>
+            {% for src, data in metrics %}
+                <tr>
+                    <td>{{ src }}</td>
+                    {% set arr = {} %}
+                    {% for i in 0..2 %}
+                        {% set arr = arr|merge({(i ~''): data[i][0]['value'] ?: 0 }) %}
+                        <td>{{ arr[i~'']}}</td>
+                    {% endfor %}
+                    <td>{{ min(myarrval(arr)) }}</td>
+                    <td>{{ max(myarrval(arr)) }}</td>
+                    <td>{{ myarravg(myarrval(arr))|slice(0,5) }}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% include 'footer.twig' %}
